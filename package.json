@@ -1,0 +1,17 @@
+{
+  "name": "instance-pubsub",
+  "version": "1.0.0",
+  "description": "A simple pub-sub module I made because others are global and I need multiple instances",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --declaration",
+    "example": "ts-node ./example/example.ts"
+  },
+  "author": "@eric-robert",
+  "license": "ISC",
+  "dependencies": {
+    "simple-logger": "^1.0.1",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}
