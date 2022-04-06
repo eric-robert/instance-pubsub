@@ -1,6 +1,6 @@
 {
   "name": "instance-pubsub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple pub-sub module I made because others are global and I need multiple instances",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,7 @@
   },
   "author": "@eric-robert",
   "license": "ISC",
+  "types": "./dist/index.d.ts",
   "dependencies": {
     "simple-logger": "^1.0.1",
     "ts-node": "^10.7.0",
